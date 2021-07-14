@@ -1,0 +1,13 @@
+<!-- The below test-suit is for Grouping of test cases  -->
+ <suite name="Test-Suite" >
+   <test name="ToolsQA" >
+   <groups>
+   <run>
+   <include name = "demo"></include>
+   </run>
+   </groups>
+       <classes> 
+          <class name="testng.group.GroupTestNG" />
+       </classes>
+   </test>
+ </suite> 
